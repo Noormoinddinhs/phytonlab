@@ -49,3 +49,9 @@ print(d)
 print(e)
 print(f)
 print(g)
+
+# convertion from km to miles
+
+km=int(input('enter distance in km'))
+miles= 0.62137119 * km
+print(str(km) + ' kms is equals to ' + str(miles))
