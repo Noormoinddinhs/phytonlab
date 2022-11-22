@@ -159,3 +159,47 @@ for num in range(start, end + 1):
     if (count == 0 and Number != 1):
         print(" %d" %Number, end = '  ')
       
+# rock paper scissors python code with score
+
+import random
+
+win=0
+lose=0
+tie=0
+
+for i in range(0,5):
+    ui=int(input('please enter your choice: 1=paper 2=rock 3=scissor \n'))
+    ci=random.randint(1,3)
+    print(ci)
+    
+      
+    if ui==ci:
+        tie=tie+1
+    elif  ui==1 and ci==2:
+        win=win+1
+        
+    
+    elif ui==2 and ci==1:
+        lose=lose+1
+    elif  ui==1 and ci==3:
+        lose=lose+1
+    
+    elif ui==3 and ci==1:
+         win=win+1  
+    elif  ui==3 and ci==2:
+        lose=lose+1
+        
+    elif ui==2 and ci==3:
+        lose=lose+1
+        
+    
+    else:
+        win=win+1
+    
+if lose>win and lose>tie:
+    print('we won by '+str(lose)+' points')
+    
+elif lose<win and win>tie:
+    print('loose by '+ str(win)+'points')
+else:
+    print('match is a tie')
