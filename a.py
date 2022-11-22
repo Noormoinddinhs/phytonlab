@@ -106,3 +106,16 @@ elif(b>c):
     print('b is greater')
 else:
     print('c is greater')      
+
+# print no 1 and 100    
+    
+for i in range(1,101):
+    print(i)
+
+# print mutipal of 4 and 7 between 100   
+    
+n=1
+while (n<=100):
+    if((n%4==0)and(n%7==0)):
+        print(n)
+    n=n+1    
