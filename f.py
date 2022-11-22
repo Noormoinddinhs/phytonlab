@@ -1,7 +1,0 @@
-a=int(input('enter the value of a:'))
-b=int(input('enter the value of b:'))
-c=int(input('enter the value of c:'))
-d=(b*b)-(4*a*c)
-sol1=(-b-(d)**0.5)/(2*a)
-sol1=(-b+(d)**0.5)/(2*a)
-print('the solution are ' + str(sol1),str(sol2))
