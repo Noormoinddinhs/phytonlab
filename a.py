@@ -65,3 +65,11 @@ d=(b*b)-(4*a*c)
 sol1=(-b-(d)**0.5)/(2*a)
 sol1=(-b+(d)**0.5)/(2*a)
 print('the solution are ' + str(sol1),str(sol2))
+
+# Given number is even or odd
+
+n=int(input('enter the no'))
+if (n%2==0):
+    print('even no')
+else:
+        print('odd no')
