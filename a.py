@@ -27,3 +27,10 @@ a=b
 b=temp
 print('a=' +str(a))
 print('b=' +str(b))
+
+# swape of a two number without using temporary variable
+
+x = int(input('enter the value of x'))
+y = int(input('enter the value of y'))
+x, y = y, x
+print("Value of x : ", x, " and y : ", y)
