@@ -73,3 +73,13 @@ if (n%2==0):
     print('even no')
 else:
         print('odd no')
+
+# Given no is positive or negative or zero    
+        
+ n=int(input('enter a no'))
+if (n<0):
+    print('no is neg')
+elif (n==0):
+        print('no is zero')
+else:
+            print('number is  positive')       
