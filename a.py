@@ -55,3 +55,13 @@ print(g)
 km=int(input('enter distance in km'))
 miles= 0.62137119 * km
 print(str(km) + ' kms is equals to ' + str(miles))
+
+# quadratic equation
+
+a=int(input('enter the value of a:'))
+b=int(input('enter the value of b:'))
+c=int(input('enter the value of c:'))
+d=(b*b)-(4*a*c)
+sol1=(-b-(d)**0.5)/(2*a)
+sol1=(-b+(d)**0.5)/(2*a)
+print('the solution are ' + str(sol1),str(sol2))
