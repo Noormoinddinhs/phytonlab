@@ -133,3 +133,29 @@ else:
        num -= 1
    print("The sum is", sum)
    
+# even number
+
+start, end = 1, 100
+for num in range(start, end + 1):
+    if num % 2 == 0:
+        print(num, end = " ")
+
+# odd number
+      
+start, end = 1, 100
+for num in range(start, end + 1):
+    if num % 2 != 0:
+        print(num, end = " ")
+
+# prime number        
+        
+        for Number in range (1, 101):
+    count = 0
+    for i in range(2, (Number//2 + 1)):
+        if(Number % i == 0):
+            count = count + 1
+            break
+
+    if (count == 0 and Number != 1):
+        print(" %d" %Number, end = '  ')
+      
