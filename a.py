@@ -119,3 +119,17 @@ while (n<=100):
     if((n%4==0)and(n%7==0)):
         print(n)
     n=n+1    
+
+# sum of n numbers   
+    
+ num=int(input('enter a no'))
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
+   
