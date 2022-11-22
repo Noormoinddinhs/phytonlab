@@ -10,3 +10,10 @@ print(c)
 a=int(input('enter a number'))
 b=a**0.5
 print(b)
+
+# area of a triangle
+
+b=int(input('input base'))
+h=int(input('input height'))
+area = 1/2 * b * h
+print(area)
