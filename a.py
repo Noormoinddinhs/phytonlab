@@ -203,7 +203,7 @@ elif lose<win and win>tie:
 else:
     print('match is a tie')
     
-    # sum of nested lsit
+# sum of nested lsit
 
 def sum_nestedlist( l ):
     total = 0
@@ -220,3 +220,14 @@ def sum_nestedlist( l ):
 print(sum_nestedlist([[1,2],[3],[4,5,6]]))
 print("Value of x : ", x, " and y : ", y)
 ans=21
+
+# cumilative sum
+
+def Cumulative(lists):
+    cu_list = []
+    length = len(lists)
+    cu_list = [sum(lists[0:x:1]) for x in range(0, length+1)]
+    return cu_list[1:]
+lists = [1,2,3]
+print (Cumulative(lists))
+ans=[1,3,6]
