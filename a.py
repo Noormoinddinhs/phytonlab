@@ -33,6 +33,7 @@ print('b=' +str(b))
 x = int(input('enter the value of x'))
 y = int(input('enter the value of y'))
 x, y = y, x
+print("Value of x : ", x, " and y : ", y)
 
 # addition subration multiplication divistion and exor of two number
 
