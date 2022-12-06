@@ -90,7 +90,7 @@ if (n<=0):
     if (n<0):
         print('no is neg')
 elif(n==0):
-    prin('no is zero')
+    print('no is zero')
 else:
             print('number is  positive')        
 
@@ -218,7 +218,6 @@ def sum_nestedlist( l ):
     return total
              
 print(sum_nestedlist([[1,2],[3],[4,5,6]]))
-print("Value of x : ", x, " and y : ", y)
 ans=21
 
 # cumilative sum
