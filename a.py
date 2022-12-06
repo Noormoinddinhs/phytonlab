@@ -33,7 +33,6 @@ print('b=' +str(b))
 x = int(input('enter the value of x'))
 y = int(input('enter the value of y'))
 x, y = y, x
-print("Value of x : ", x, " and y : ", y)
 
 # addition subration multiplication divistion and exor of two number
 
@@ -203,3 +202,21 @@ elif lose<win and win>tie:
     print('loose by '+ str(win)+'points')
 else:
     print('match is a tie')
+    
+    # sum of nested lsit
+
+def sum_nestedlist( l ):
+    total = 0
+     
+    for j in range(len(l)):
+       
+        if type(l[j]) == list :
+            total+= sum_nestedlist(l[j])
+        else:
+            total += l[j]  
+             
+    return total
+             
+print(sum_nestedlist([[1,2],[3],[4,5,6]]))
+print("Value of x : ", x, " and y : ", y)
+ans=21
